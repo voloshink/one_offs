@@ -28,7 +28,6 @@ fn test_method(f: &Fn(u8) -> u8) -> (u8, u8) {
         if drops < min {
             min = drops;
         }
-        // println!("{} {} {}", drops, min, max);
     }
 
     (min, max)
